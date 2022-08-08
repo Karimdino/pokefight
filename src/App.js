@@ -1,11 +1,19 @@
 import "./App.css";
+import Header from "./components/Header";
+import Pokedex from "./components/Pokedex";
 
-function App() {
+
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-    </div>
+      <Header />
+      <div className="gameboy">
+      <Pokedex />
+      </div>
+     </div>
   );
 }
 
-export default App;
+ 
+      
