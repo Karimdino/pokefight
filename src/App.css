@@ -13,6 +13,11 @@
   color: white;
 }
 .gameboy{
-  background-image: "";
+  background-image: url(./components/Images/gameboy.png);
+  height: 300vh;
+  width: 200vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
