@@ -9,6 +9,9 @@ export default function Pokedex() {
   }
   console.log(pokedex)
   return (
-    <div>Pokedex</div>
+    <div className='pokedex'>
+
+    </div>
   )
 }
+

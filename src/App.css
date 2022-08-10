@@ -15,11 +15,14 @@
 .gameboy{
   background-image: url(./components/Images/gameboy.png);
   height: 150vh;
-  width: 100vh;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.pokemonCard{
+  width: 15vw;
+}
   
 
 
-}
 
