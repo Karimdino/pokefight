@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function PokemonCard({pokemonId, pokemonName}) {
   return (
-    <Link>
+    <Link to={`pokemon/${pokemonId}`}>
         <Card className='pokemonCard'>
             <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`} />
             <Card.Body>

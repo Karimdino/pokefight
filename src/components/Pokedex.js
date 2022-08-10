@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PokemonCard from './PokemonCard' 
 
 export default function Pokedex() {
   const [pokedex, setPokedex] = useState([])
@@ -10,7 +11,9 @@ export default function Pokedex() {
   console.log(pokedex)
   return (
     <div className='pokedex'>
+      {pokedex?.map((pokemon, index) => <PokemonCard pokemonId={pokemon.id} pokemonName={pokemon.name.english} key={index} />)}
 
+        
     </div>
   )
 }
