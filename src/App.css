@@ -14,10 +14,12 @@
 }
 .gameboy{
   background-image: url(./components/Images/gameboy.png);
-  height: 300vh;
-  width: 200vh;
+  height: 150vh;
+  width: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  
+
 
 }
 
