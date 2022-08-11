@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import PokemonCardDetail from './PokemonCardDetail'
 
 export default function Pokemon() {
+  
   const {id} = useParams()
   const [pokemon, setPokemon] = useState([])
   if(pokemon.length === 0){

@@ -22,8 +22,15 @@
 .pokemonCard{
   width: 15vw;
 }
-.pokemonCardDetail{}
-  
+.pokemonCardDetail{
 
+}
+  
+.pokemonCardDetails{
+  display: flex;
+  justify-content: center;
+  width: 15vw;
+
+}
 
 
