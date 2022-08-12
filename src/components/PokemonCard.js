@@ -14,6 +14,3 @@ export default function PokemonCard({pokemonId, pokemonName}) {
     </Link>
   );
 }
-        
-
- 

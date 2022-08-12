@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default function PokemonCardDetail({pokemonDetails}) {
   
@@ -16,6 +17,7 @@ export default function PokemonCardDetail({pokemonDetails}) {
             <p>Type: {type}</p>
             <p>Base: HP: {base?.HP} Attack: {base?.Attack} Defense: {base?.Defense} Speed: {base?.Speed}</p>
           </Card.Text>
+          <Link to={`/pokemon/fight/${pokemonId}`}>Fight</Link>
         </Card.Body>
       </Card>
     </div>
