@@ -5,6 +5,7 @@ import Fight from "./components/Fight";
 import Pokemon from "./components/Pokemon";
 import PokemonInfo from "./components/PokemonInfo";
 import NoPage from "./components/NoPage";
+import Pokedex from "./components/Pokedex"
 
 
 
@@ -15,18 +16,14 @@ export default function App() {
       <Header />
       <div className="gameboy">
         <Routes>
+          <Route path="/pokemon/fight/:id" element={<Fight />} ></Route>
           <Route path="/pokemon/:id/:info" element={<PokemonInfo />}></Route>
           <Route path="/pokemon/:id" element={<Pokemon />}></Route>
-          <Route path="/" element={<Fight />} ></Route>
+          <Route path="/" element={<Pokedex />}></Route>
           <Route path="*" element={<NoPage />} ></Route>
-          
-        
         </Routes>
       
       </div>
-     </div>
+    </div>
   );
 }
-
- 
-      

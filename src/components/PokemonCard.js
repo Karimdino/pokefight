@@ -9,6 +9,7 @@ export default function PokemonCard({pokemonId, pokemonName}) {
             <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`} />
             <Card.Body>
                 <Card.Title>{pokemonName}</Card.Title>
+                <Link to={`/pokemon/fight/${pokemonId}`}>Fight</Link>
             </Card.Body>
         </Card>
     </Link>
